@@ -1,0 +1,789 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-primary: #ff7b02;
+    /******GREEN THEME**********/
+    --color-primary:#;
+    --color-bg-3: #61A122;
+    --color-bg-1:#FFFFFF;
+    --color-bg-2:#8CDA3F;
+    --color-bg-3:#012734;
+    --color-white:hsl(0, 10%, 36%);
+    
+    /*==========Purple THEME=========*/
+    /* --color-primary:#ff7b02;
+    --color-primary-variant: #e5a55d;
+    --color-bg-1:#140021;
+    --color-bg-2:#1e0032;
+    --color-bg-3:#25003e;
+    --color-bg-4:#35005a;
+    --color-light:#d0b8e0;
+    --color-white:hsl(0, 0%, 90%);
+    */
+    
+    --transition: all 400ms ease;
+    }
+    .logo{
+        width: 98.7vw;
+        background:#0C172B;
+        height: 8rem;
+        text-align: center;
+        scroll-behavior: smooth;
+    }
+    .nav_logo{
+        position: absolute;
+        left: 3rem;
+        font-size: 48;
+        text-decoration: none;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #8CDA3F;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Oswald', sans-serif;
+    }
+    .p{
+        font-size: 16;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -14px;
+        position: absolute;
+        left: 0.3rem;
+        letter-spacing: 0px;
+    }
+    .menu{
+        position: absolute;
+        right: 6.5rem;
+        top: 4rem;
+        font-size: 16;
+        list-style: none;
+        display: flex;
+        gap: 3rem;
+        text-decoration: none;
+        width: max-content;
+        text-decoration: none;
+        transition: all .9s ease;
+    }
+    .menu a{
+        text-decoration: none;
+        color:powderblue;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 14px;
+        font-weight: 100;
+       transition:  all .9s ease;
+    }
+    .menu a:hover{
+        color: #61A122;
+    }
+    .search{
+        position: absolute;
+        right: 11rem;
+        top: 1rem;
+        height: 30px;
+        background: transparent;
+        color: white;
+        border-radius: none;
+        text-align:left 20px;
+        box-shadow: none;
+        display: flexbox;
+        text-indent: 20px;
+        text-transform: capitalize;
+        border-style: groove;
+        border-color: #61A122;
+        font-family: 'Bai Jamjuree', sans-serif;
+        }
+    .search:hover{
+        color: #FFFFFF;
+        border-color: #8CDA3F;
+    }
+    .btn_1{
+        position: absolute;
+        right: 9rem;
+        top: 1.3rem;
+        background-color: transparent;
+        color: #61A122;
+        border-color: transparent;
+
+    }
+    .btn_1:hover{
+        cursor: pointer;
+    }
+    .btn_2{
+        position: absolute;
+        right: 11.1rem;
+        top: 1.1rem;
+        border-style: groove;
+        border-color:transparent;
+        background-color: transparent;
+        color: #61A122;
+        width: 30px;
+        height: 26px;
+        border-radius: 2px;
+    }
+    .btn_2:hover{
+        cursor: pointer;
+    }
+    .btn_3{
+        position: absolute;
+        right: 6rem;
+        top: 1.1rem;
+        border-style: groove;
+        border-color:transparent;
+        background-color: transparent;
+        color: #61A122;
+        width: 30px;
+        height: 26px;
+        border-radius: 2px;
+    }
+    .btn_3:hover{
+        cursor: pointer;
+    }
+    /**************NAV END********/
+    .contents{
+        background-color: transparent;
+        font-family: 'Bai Jamjuree', sans-serif;
+        width: 98.7vw;
+        height: 110vh;
+        background-image: url(images/background_1.jpg);
+    }
+    .content{
+        font-family: 'Oswald', sans-serif;
+        font-size: 75px;
+        color: #61A122;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 12rem;
+        top: 13rem;
+    }
+    .text{
+        position: absolute;
+        left: 12rem;
+        top: 35rem;
+        color: #61A122;
+    }
+    .images{
+        position: absolute;
+        right: 10rem;
+        top: 11rem;
+    }
+    .shop{
+        border-style: groove;
+        background: transparent;
+        border-color: #61A122;
+        color: #61A122;
+        height: 45px;
+        width: 210px;
+        border-radius: 20px;
+        position: absolute;
+        left: 12rem;
+        top: 39rem;
+        font-family: 'Bai Jamjuree', sans-serif;
+        cursor: pointer;
+    }
+    .shop:hover{
+        background: #8CDA3F;
+        color: black;
+        border-color: #8CDA3F;
+    }
+    .Feature{
+        height: 13rem;
+        width: 98.7vw;
+        text-align: center; 
+        background: #0C172B;
+    }
+    h2{
+        font-family:  'Oswald', sans-serif;
+        font-size: 40;
+        color: #61A122;
+        letter-spacing: 5px ;
+        position: absolute;
+        top: 55rem;
+        text-align: center;
+        left: 29rem;
+    }
+    .Products{
+        position: absolute;
+        background-color: #0C172B;
+        width: 98.7vw;
+        height: 1150px;
+    }  
+    .Product_1{
+        width: 360px;
+        height: 380px;
+        position: relative;
+        left: 60px;
+        border-style: groove;
+        border-color: #61A122;
+        border-width: 2px;
+    }
+    .Product_2{
+        width: 360px;
+        height: 380px;
+        position: relative;
+        left: 120px;
+        border-style: groove;
+        border-color: #61A122;
+        border-width: 2px;
+    }
+    .Product_3{
+        width: 360px;
+        height: 380px;
+        position: relative;
+        left: 180px;
+        border-style: groove;
+        border-color: #61A122;
+        border-width: 2px;
+    }
+    .Product_4{
+        width: 360px;
+        height: 380px;
+        position: absolute;
+        left: 60.7px;
+        border-style: groove;
+        border-color: #61A122;
+        border-width: 2px;
+        opacity: 0;
+    }
+    .Product_4:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+    .Product_5{
+        width: 360px;
+        height: 380px;
+        position: absolute;
+        left: 30.5rem;
+        border-style: groove;
+        border-color: #61A122;
+        border-width: 2px;
+        opacity: 0;
+    }
+    .Product_5:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+    .Product_6{
+        width: 360px;
+        height: 390px;
+        position: absolute;
+        right: 70px;
+        border-style: groove;
+        border-color: #61A122;
+        border-width: 2px;
+        opacity: 0;
+    }
+    .Product_6:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+    .h3{
+        background-color: #61A122;
+        position: absolute;
+        top: 22.7rem;
+        right: 4.5rem;
+        width: 22.6rem;
+        height: 30px;
+        border-radius: 10px;
+        text-align: center;
+        opacity: 0;
+        letter-spacing: 20rem;
+    }
+    .h3:hover{
+        opacity: 1;
+    }
+    .content_tag{
+        position: absolute;
+        left: 5rem;
+        top: 36rem;
+        text-align: left;
+        font-size: 39;
+        font-weight: 500;
+        color: #8CDA3F;
+    }
+    .p_tag{
+        position:absolute;
+        left: 5rem;
+        top: 52rem;
+        text-align: left;
+        font-size: 15;
+        font-weight: 400;
+        color: #8CDA3F;
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+        .button{
+            border-style: groove;
+            background: transparent;
+            border-color: #61A122;
+            color: #61A122;
+            height: 45px;
+            width: 210px;
+            border-radius: 20px;
+            position: absolute;
+            left: 5rem;
+            top: 60rem;
+            font-family: 'Bai Jamjuree', sans-serif;
+            cursor: pointer;
+        }
+        .button:hover{
+            background: #8CDA3F;
+            color: black;
+            border-color: #8CDA3F;
+        }
+        .lg_bg{
+            position: absolute;
+            right: 0;
+            top: 30rem;
+            height: 40rem;
+        }
+        .learn{
+            border-style: solid;
+            width: 33rem;
+            height: 32rem;
+            position: absolute;
+            right: 5rem;
+            top: 32rem;
+            border-color: #61A122;
+        }
+        .Purpose{
+            position: absolute;
+            top: 68rem;
+            text-align: center;
+            background-color: #0C172B;
+            font-family: 'Oswald', sans-serif ;
+            width: 98.7vw;
+            height: 1000px;
+        }
+        .h2{
+            position: absolute;
+            right: 31rem;
+            top: 4rem;
+            color: #61A122;
+            font-size: 43;
+        }
+        .Project_div{
+            width: 35rem;
+            height: 1000px;
+
+
+        }
+        .Project_3{
+            position: relative;
+            top: 15rem;
+            left: 4rem;
+            bottom: 5rem;
+            border-style: solid;
+            border-color: #61A122;
+            background-image: url(images/Project_3.webp);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 600px;
+            justify-content: center;
+        }
+        .MUSCLE{
+            position: relative;
+            top: -22.9rem;
+            right: -39rem;
+            bottom: 5rem;
+            border-style: solid;
+            border-color: #61A122;
+            background-image: url(images/Project_2.webp);
+            background-repeat: no-repeat;
+            height: 607px;
+            justify-content: center;
+            width: 600px;
+        }
+        .MUSCLE{
+            text-align: center;
+            color: white;
+            font-family:  'Oswald', sans-serif ;
+            font-size: 35;
+        }
+        .selete{
+            border-style: groove;
+            background: transparent;
+            border-color: #61A122;
+            color: #61A122;
+            height: 50px;
+            width: 210px;
+            border-radius: 20px;
+            position: absolute;
+            left: 13rem;
+            margin-top: 2rem;
+            font-family: 'Bai Jamjuree', sans-serif;
+            cursor: pointer;
+        }
+        .selete:hover{
+            background: #8CDA3F;
+            color: black;
+        }
+        .focus{
+            margin-top: -10rem;
+        }
+        .MUSCLE.p{
+            font-size: 18;
+        }
+        .sec{
+            font-size: 16;
+            font-family: 'Bai Jamjuree', sans-serif;
+            color: #61A122;
+        }
+        .blog{
+            text-align: center;
+            background-image: url(images/background_2.jpg);
+            height: 1000px;
+            width: 98.7vw;
+            color: #61A122;
+            position: absolute;
+            top: 60rem;
+            font-size: 24;
+        }
+        .blog_1{
+            position: absolute;
+            left: 14rem;
+            top: 10rem;
+            width: 300px;
+            height: 230px;
+            border-style: solid;
+            border-color: #61A122;
+            border-radius: 5px;
+        }
+        .overlay_1{
+            position: absolute;
+            left: 14rem;
+            top: 10rem;
+            width: 300px ;
+            height: 230px;
+            background-color: black;
+            border-style: solid;
+            border-color: #61A122;
+            opacity: 0.7;
+        }
+        .blog_2{
+            position: absolute;
+            left: 35rem;
+            top: 10rem;
+            width: 300px;
+            height: 230px;
+            border-style: solid;
+            border-color: #61A122;
+            border-radius: 5px;
+        }
+        .overlay_2{
+            position: absolute;
+            left: 35rem;
+            top: 10rem;
+            width: 300px ;
+            height: 230px;
+            background-color: black;
+            border-style: solid;
+            border-color: #61A122;
+            opacity: 0.7;
+        }
+        .blog_3{
+            position: absolute;
+            right: 10rem;
+            top: 10rem;
+            width: 300px;
+            height: 230px;
+            border-style: solid;
+            border-color: #61A122;
+            border-radius: 5px;
+        }
+        .overlay_3{
+            position: absolute;
+            right: 10rem;
+            top: 10rem;
+            width: 300px ;
+            height: 230px;
+            background-color: black;
+            border-style: solid;
+            border-color: #61A122;
+            opacity: 0.7;
+        }
+        .blog_11{
+            color: white;
+            font-family: 'Bai Jamjuree', sans-serif;
+            font-size: 14;
+            font-weight: 300;
+            position: absolute;
+            top: 11rem;
+            left: 14.8rem;
+        }
+        .blog_12{
+            color: white;
+            font-family: 'Bai Jamjuree', sans-serif;
+            font-size: 13;
+            font-weight: 300;
+            position: absolute;
+            top: 12.4rem;
+            left: 14.8rem;
+        }
+        .blog_13{
+            color: #61A122;
+            font-family: 'Oswald', sans-serif ;
+            font-size: 29;
+            font-weight: 900;
+            position: absolute;
+            top: 19rem;
+            left: 14.8rem;
+            transition: all .7s ease;
+        }
+        .blog_13:hover{
+            color: white;
+        }
+        .blog_21{
+            color: white;
+            font-family: 'Bai Jamjuree', sans-serif;
+            font-size: 15;
+            font-weight: 300;
+            position: absolute;
+            top: 11rem;
+            left: 36rem;
+        }
+        .blog_22{
+            color: white;
+            font-family: 'Bai Jamjuree', sans-serif;
+            font-size: 13;
+            font-weight: 300;
+            position: absolute;
+            top: 12.4rem;
+            left: 36rem;
+        }
+        .blog_23{
+            color: #61A122;
+            font-family: 'Oswald', sans-serif ;
+            font-size: 29;
+            font-weight: 900;
+            position: absolute;
+            top: 19rem;
+            left: 36rem;
+            transition: all .7s ease;
+        }
+        .blog_23:hover{
+            color: white;
+        }
+        .blog_31{
+            color: white;
+            font-family: 'Bai Jamjuree', sans-serif;
+            font-size: 15;
+            font-weight: 300;
+            position: absolute;
+            top: 11rem;
+            right: 22.2rem;
+        }
+        .blog_32{
+            color: white;
+            font-family: 'Bai Jamjuree', sans-serif;
+            font-size: 13;
+            font-weight: 300;
+            position: absolute;
+            top: 12.4rem;
+            right: 24rem;
+        }
+        .blog_33{
+            color: #61A122;
+            font-family: 'Oswald', sans-serif ;
+            font-size: 29;
+            font-weight: 900;
+            position: absolute;
+            top: 19rem;
+            right: 11rem;
+            transition: all .7s ease;
+        }
+        .blog_33:hover{
+            color: white;
+        }
+        .button_1{
+            border-style: solid;
+            background: #0C172B;
+            border-color: #61A122;
+            color: #61A122;
+            height: 55px;
+            width: 250px;
+            border-radius: 50px;
+            position: absolute;
+            left: 37rem;
+            top: 31rem;
+            font-family: 'Bai Jamjuree', sans-serif;
+            cursor: pointer;
+        }
+        .button_1:hover{
+            background-color: #61A122;
+            color: black;
+        }
+        .sign{
+        font-family:  'Oswald', sans-serif;
+        font-size: 40;
+        color: white;
+        letter-spacing: 5px ;
+        position: absolute;
+        top: 37rem;
+        text-align: center;
+        left: 15rem;
+        }
+        .email{
+            font-size:'Oswald', sans-serif ;
+            font-size: 18;
+            color: #61A122;
+            left: 1rem;
+            position: absolute;
+            top: 53rem;
+            left: 18rem;
+            width: 600px;
+            height: 50px;
+            border-style: solid;
+            border-color: #61A122;
+            border-right: -30px;
+            border-radius: 50px;
+            text-indent: 20px;
+            background: #0C172B;
+        }
+        .contact__btn{
+            border-style: solid;
+            background: #0C172B;
+            border-color: #61A122;
+            color: #61A122;
+            height: 45px;
+            width: 230px;
+            border-radius: 50px;
+            position: absolute;
+            right: 18rem;
+            top: 53rem;
+            font-family: 'Bai Jamjuree', sans-serif;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 15;
+            justify-content: center;
+            align-items: center;
+            transition: all .9s ease-out;
+        }
+        .contact__btn:hover{
+            background-color: #61A122;
+            color: black;
+        }
+        .sub{
+            position: absolute;
+            top: 10px;
+            left: 90px;
+        }
+        .foot{
+            border-top: solid;
+            border-bottom: solid;
+            border-color: #61A122;
+            width: 99.8%;
+            height: 200px;
+            position: absolute;
+            top: 62.4rem;
+            background-color: #0C172B;
+        }
+        .foot_1{
+            position: absolute;
+        }
+        .nav_logo_2{
+            position: absolute;
+            left: 2rem;
+            font-size: 48;
+            text-decoration: none;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #8CDA3F;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Oswald', sans-serif;
+        }
+        .Menu_1{
+            position: absolute;
+            left: 25rem;
+            top: 2rem;
+            display: inline;
+            list-style: none;
+            color: #8CDA3F;
+        }
+        .Menu_1 a{
+            text-decoration: none;
+            color: #61A122;
+            font-family: 'Bai Jamjuree', sans-serif;
+            transition: all .9s ease;
+        }
+        .Menu_1 a:hover{
+            color: #ff7b02;
+        }
+        .Policies{
+            position: absolute;
+            left: 47rem;
+            top: 2rem;
+            display: inline;
+            list-style: none;
+            color: #8CDA3F;
+            width: 300px;
+        }
+        .Policies a{
+            text-decoration: none;
+            color: #61A122;
+            font-family: 'Bai Jamjuree', sans-serif;
+            transition: all .9s ease;
+        }
+        .Policies a:hover{
+            color: #ff7b02;
+        }
+        .contact{
+            position: absolute;
+            left: 65rem;
+            top: 2rem;
+            display: inline;
+            list-style: none;
+            color:#8CDA3F;
+            width: 300px;
+        }
+        .social_media{
+            position: relative;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            color: #61A122;
+        }
+        .social{
+            position: absolute;
+        }
+        .social a{
+            color: #61A122;
+            width: 10px;
+            height: 10px;
+            position: relative;
+            top: 9rem;
+            right: -64.6rem;
+            margin: 10px;
+        }
+        /**********ABOUT US PAGE*********/
+        header{
+            margin: 0;
+            padding: 0;
+        }
+        .logo{
+            background-color: #0C172B;
+            width: 100vw;
+        }
+        body{
+            background-color:#0C172B ;
+        }
+        .about1{
+            font-family: 'Oswald', sans-serif;
+            font-size: 30px;
+            width: 230px;
+            border-style: solid;
+            border-color: #61A122;
+            height: 350px;
+            position: absolute;
+            left: 8rem;
+            top: 10rem;
+            color: #61A122;
+        }
+        .hh{
+            margin-left: 10px;
+        }
+        .ph{
+            position: absolute;
+            top: 10rem;
+            right: 10rem;
+            color: #61A122;
+            font-family: 'Bai Jamjuree', sans-serif;
+            font-size: 18px;
+        }
